@@ -1,0 +1,1 @@
+<?php $c = new KAL_Controller(); echo $c->renderPartial(KAL_PLUGIN_PATH . 'views/main/_form.php', array('keyword_model' => $keyword_model)); ?>
